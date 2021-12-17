@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/* header css start */
+.fixed-width{
+    width: 1270px;
+    margin: auto;
+}
+img{
+    width: 150px;
+}
+
+.header{
+    background-color: #1e3e54d6;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-left img{
+
+}
+
+.header-right ul{text-align: right;list-style: none;display: list-item;}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 59px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+    color: white;
+}
+.header-right ul li a:hover{
+    background-color: #2980b9;
+}
+/* Header css end */
+
+/* Banner Stat */
+.banner{
+    background: url(banner-.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner-caption{}
+.banner-caption h2{
+    background: #e9a328;
+    color: white;
+    display: inline-block;
+    padding: 15px 20px;
+    font-family: arial;
+}
+.banner-caption h1{
+    background: turquoise;
+    color: white;
+    width: 442px;
+    margin: auto;
+    margin-top: 9px;
+}
+
+/* Banner End */
+
+/* Sevice Start  */
+h1.text-center {margin-top: 42px;
+                font-size: xxx-large;
+}
+.service-item {
+    float: left;
+    width: 30.3%;
+    text-align: center;
+    margin: 110px 19px;
+    background-color: #f1efef;
+}
+span img {
+    width: 46px;
+    padding: 6px 0px;
+}
+.service.clearfix {
+    font-family: arial;
+    background-color: #f7f4f4;
+}
+h3 {
+    font-size: 31px;
+    padding: 12px 0px;
+}
+p {
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 18px;
+}
+/* Service End */
+
+/* About Us Strat */
+#p{
+    max-width: 686px;
+    margin: auto;
+    color: #8a8a8a;
+}
+#h3{
+    color: #545050;
+}
+/* About Us End */
+
+/* Contrace Strat */
+.contrac {
+    background: whitesmoke;
+}
+h4{
+    font-size: 48px;
+    color: #80804a;
+}
+
+h5{
+font-size: 45px;
+color: brown;
+margin: 0px 70px;
+}
+
+#hire{
+font-size: 50px;
+color: tomato;
+margin: 0px 150px;
+}
+p.thank.you {
+    font-size: 56px;
+    margin: 0px 212px;
+    color: teal;
+}
+/* Contrace End */
+/* footer strat */
+.footer {
+    background: black;
+    color: white;
+}
+p#footer {
+    padding-top: 16px;
+    line-height: 10px;
+    font-family: arial;
+    font-size: 16px;
+}
+/* footer end */
